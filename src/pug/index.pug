@@ -1,185 +1,220 @@
 doctype html
-html(lang='en')
-
-    head
-
-        meta(charset='utf-8')
-        meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description' content='')
-        meta(name='author' content='')
-
-        title Stylish Portfolio - Start Bootstrap Template
-
-        // Favicon
-        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
-
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v5.15.4/js/all.js', crossorigin='anonymous')
-
-        // Simple line icons
-        link(href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css', rel='stylesheet')
-
-        // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css')
-
-        // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
-
-    body#page-top
-
-        // Navigation
-        a.menu-toggle.rounded(href='#')
-            i.fas.fa-bars
-        nav#sidebar-wrapper
-            ul.sidebar-nav
-                li.sidebar-brand
-                    a(href='#page-top') Start Bootstrap
-                li.sidebar-nav-item
-                    a(href='#page-top') Home
-                li.sidebar-nav-item
-                    a(href='#about') About
-                li.sidebar-nav-item
-                    a(href='#services') Services
-                li.sidebar-nav-item
-                    a(href='#portfolio') Portfolio
-                li.sidebar-nav-item
-                    a(href='#contact') Contact
-
-        // Header
-        header.masthead.d-flex.align-items-center
-            .container.px-4.px-lg-5.text-center
-                h1.mb-1 Stylish Portfolio
-                h3.mb-5
-                    em A Free Bootstrap Theme by Start Bootstrap
-                a.btn.btn-primary.btn-xl(href='#about') Find Out More
-
-        // About
-        section#about.content-section.bg-light
-            .container.px-4.px-lg-5.text-center
-                .row.gx-4.gx-lg-5.justify-content-center
-                    .col-lg-10
-                        h2 Stylish Portfolio is the perfect theme for your next project!
-                        p.lead.mb-5
-                            | This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            a(href='https://unsplash.com/') Unsplash
-                            | !
-                        a.btn.btn-dark.btn-xl(href='#services') What We Offer
-
-        // Services
-        section#services.content-section.bg-primary.text-white.text-center
-            .container.px-4.px-lg-5
-                .content-section-heading
-                    h3.text-secondary.mb-0 Services
-                    h2.mb-5 What We Offer
-                .row.gx-4.gx-lg-5
-                    .col-lg-3.col-md-6.mb-5.mb-lg-0
-                        span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-screen-smartphone
-                        h4
-                            strong Responsive
-                        p.text-faded.mb-0 Looks great on any screen size!
-                    .col-lg-3.col-md-6.mb-5.mb-lg-0
-                        span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-pencil
-                        h4
-                            strong Redesigned
-                        p.text-faded.mb-0 Freshly redesigned for Bootstrap 5.
-                    .col-lg-3.col-md-6.mb-5.mb-md-0
-                        span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-like
-                        h4
-                            strong Favorited
-                        p.text-faded.mb-0
-                            | Millions of users
-                            i.fas.fa-heart
-                            | Start Bootstrap!
-                    .col-lg-3.col-md-6
-                        span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-mustache
-                        h4
-                            strong Question
-                        p.text-faded.mb-0 I mustache you a question...
-
-        // Callout
-        section.callout
-            .container.px-4.px-lg-5.text-center
-                h2.mx-auto.mb-5
-                    | Welcome to
-                    em your
-                    | next website!
-                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Download Now!
-
-        // Portfolio
-        section#portfolio.content-section
-            .container.px-4.px-lg-5
-                .content-section-heading.text-center
-                    h3.text-secondary.mb-0 Portfolio
-                    h2.mb-5 Recent Projects
-                .row.gx-0
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Stationary
-                                    p.mb-0 A yellow pencil with envelopes on a clean, blue backdrop!
-                            img.img-fluid(src='assets/img/portfolio-1.jpg', alt='...')
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Ice Cream
-                                    p.mb-0 A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!
-                            img.img-fluid(src='assets/img/portfolio-2.jpg', alt='...')
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Strawberries
-                                    p.mb-0 Strawberries are such a tasty snack, especially with a little sugar on top!
-                            img.img-fluid(src='assets/img/portfolio-3.jpg', alt='...')
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Workspace
-                                    p.mb-0 A yellow workspace with some scissors, pencils, and other objects.
-                            img.img-fluid(src='assets/img/portfolio-4.jpg', alt='...')
-
-        // Call to Action
-        section.content-section.bg-primary.text-white
-            .container.px-4.px-lg-5.text-center
-                h2.mb-4 The buttons below are impossible to resist...
-                a.btn.btn-xl.btn-light.me-4(href='#!') Click Me!
-                a.btn.btn-xl.btn-dark(href='#!') Look at Me!
-
-        // Map
-        #contact.map
-            iframe(src='https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A&output=embed')
-            br
-            small
-                a(href='https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A')
-
-        // Footer
-        footer.footer.text-center
-            .container.px-4.px-lg-5
-                ul.list-inline.mb-5
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-facebook
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-twitter
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white(href='#!')
-                            i.icon-social-github
-                p.text-muted.small.mb-0 Copyright &copy; Your Website 2021
-
-        // Scroll to Top Button
-        a.scroll-to-top.rounded(href='#page-top')
-            i.fas.fa-angle-up
-
-        // Bootstrap core JS
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='')
+  meta(name='author' content='Julia Grill')
+  title Julia Grill - Portfolio
+  // Favicon
+  link(rel='icon' type='image/x-icon' href='assets/favicon.ico')
+  // Font Awesome icons (free version)
+  script(src='https://use.fontawesome.com/releases/v5.15.4/js/all.js' crossorigin='anonymous')
+  // Simple line icons
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' rel='stylesheet')
+  // Google fonts
+  link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css')
+  // Core theme CSS (includes Bootstrap)
+  link(href='css/styles.css' rel='stylesheet')
+// Navigation
+a.menu-toggle.rounded(href='#')
+  i.fas.fa-bars
+nav#sidebar-wrapper
+  ul.sidebar-nav
+    li.sidebar-brand
+      a(href='#page-top') Navigate
+    li.sidebar-nav-item
+      a(href='#page-top') Home
+    li.sidebar-nav-item
+      a(href='#about') About
+    li.sidebar-nav-item
+      a(href='#portfolio-pro') Portfolio - Current &amp; Past Project
+    li.sidebar-nav-item
+      a(href='#processes') Design Thinking - Course Overview
+    li.sidebar-nav-item
+      a(href='#contact') Contact
+// Header
+header.masthead.d-flex.align-items-center
+  .container.px-4.px-lg-5.text-center
+    h1.mb-1.text-white Hi, I&apos;m Julia Grill
+    h3.mb-5.text-white
+      em HCI student &amp; Software Engineer
+    a.btn.btn-primary.btn-xl(href='#about') Who am I?
+// About
+section#about.content-section.bg-light
+  .container.px-4.px-lg-5.text-center
+    .row.gx-4.gx-lg-5.justify-content-center
+      .col-lg-10
+        h2 Combining academic &amp; industry experience
+        p.lead.mb-5
+          | I work part time as a Software Developer on the 
+          a(href='https://www.greentube.com/service/novosdk/') novoSDK @ Greentube
+          | .
+          br
+          |                             I am currently completing my MSc @ TU Vienna in 
+          a(href='https://informatics.tuwien.ac.at/master/media-and-human-centered-computing-de/') Media &amp; Human Centred Computing
+          | .
+          br
+          |                             I have previously completrd my BSc @ TU Vienna in 
+          a(href='https://informatics.tuwien.ac.at/bachelor/software-und-information-engineering/') Software &amp; Information Engineering
+          | .
+      .container.px-4.px-lg-5.text-center
+        a.btn.btn-xl.btn-dark(href='https://juliastic.github.io/dev-progress/') I used to blog ...
+        a.btn.btn-xl.btn-dark(href='https://juliastic.github.io') More about me ...
+// Skills
+section#abilities.content-section.bg-primary.text-white.text-center
+  .container.px-4.px-lg-5
+    .content-section-heading
+      h3.text-secondary.mb-0 Skills
+      h2.mb-5 Abilities &amp; Interests
+    .row.gx-4.gx-lg-5
+      .col-lg-3.col-md-6.mb-5.mb-lg-0
+        span.service-icon.rounded-circle.mx-auto.mb-3
+          i.icon-book-open
+        h4
+          strong Seasoned Dev
+        p.text-faded.mb-0 I have been working with a diverse range of technologies for several years.
+      .col-lg-3.col-md-6.mb-5.mb-lg-0
+        span.service-icon.rounded-circle.mx-auto.mb-3
+          i.icon-bulb
+        h4
+          strong Learning How to Design
+        p.text-faded.mb-0 Currently completing a course on how to design systems.
+      .col-lg-3.col-md-6.mb-5.mb-md-0
+        span.service-icon.rounded-circle.mx-auto.mb-3
+          i.icon-game-controller
+        h4
+          strong Game Design
+        p.text-faded.mb-0 I adore understanding the ins and outs of Game Design.
+      .col-lg-3.col-md-6
+        span.service-icon.rounded-circle.mx-auto.mb-3
+          i.icon-people
+        h4
+          strong Team Player
+        p.text-faded.mb-0 I thrive in teams.
+// Pro Portfolio
+section#portfolio-pro.content-section
+  .container.px-4.px-lg-5
+    .content-section-heading.text-center
+      h3.text-secondary.mb-0 Portfolio
+      h2.mb-5 Current &amp; Past Projects
+    .row.gx-0
+      .col-lg-6
+        a.portfolio-item(href='https://www.greentube.com/service/novosdk/')
+          .caption
+            .caption-content
+              .h2 novoSDK
+              p.mb-0 Powerful toolkit to develop online casino games, developed @ Greentube.
+          img.img-fluid(src='assets/img/greentube_logo.jpg' alt='...')
+      .col-lg-6
+        a.portfolio-item(href='https://github.com/juliastic/ageofdetails')
+          .caption
+            .caption-content
+              .h2 Age of Details
+              p.mb-0 App written in SwiftUI displaying leaderboard data fetched from aoe2.net
+          img.img-fluid(src='assets/img/aoe2.png' alt='Age Of Details Player View')
+// Design Thinking
+section#processes.content-section.bg-light
+  .container.px-4.px-lg-5.text-center
+    .row.gx-4.gx-lg-5.justify-content-center
+      .col-lg-10
+        h2 Design Thinking - Understanding Design Processes
+        p.lead.mb-5
+          | As part of the course 
+          a(href='https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=4597&dsrid=617&courseNr=187B09&semester=2021W') Design Thinking: Ideation
+          |  we have been tasked in groups of four to develop a tangible product which improves daily life of inhabitants of 
+          b Vienna&apos;s Seestadt
+          | .
+          br
+          br
+          |                             A lot of different aspects have to be considered when designing a new prototype.
+          br
+          br
+          |                             We have focused on finding a solution to the increasing number of cars to the Seestadt.
+          br
+          br
+          |                             During the course, we had to work on several topics to cycle through the design progress. The tasks ranged from designing a provocative requisites to conducting a design workshop.
+// Aca Section
+section#portfolio-dt.content-section
+  .container.px-4.px-lg-5
+    .content-section-heading.text-center
+      h3.text-secondary.mb-0 Portfolio
+      h2.mb-5 Design Thinking
+    .row.gx-0
+      .col-lg-6
+        a.portfolio-item(href='#!')
+          .caption
+            .caption-content
+              .h2 Provocative Requisite
+              p.mb-0
+                | I have designed the provocative requisite to make people consider the downsides of relying on their cars in a city.
+          img.img-fluid(src='assets/img/provocative_pr.jpeg' alt='Provocative Requisite')
+      .col-lg-6
+        a.portfolio-item(href='https://www.aspern-seestadt.at/ueber_uns/wien_3420_ag')
+          .caption
+            .caption-content
+              .h2 Understanding Seestadt - Expert Interview
+              p.mb-0
+                | I have interviewed an urban planner from wien3420 to get a better grasp behind the 
+                i Why
+                |  of Seestadt&apos;s design.
+          img.img-fluid(src='assets/img/seestadt_ftme.jpeg' alt='Me sprinting in Seestadt')
+      .col-lg-6
+        a.portfolio-item(href='#!')
+          .caption
+            .caption-content
+              .h2 Cultural Probes
+              p.mb-0 We have designed cultural probes to understand mobility in Seestadt &amp; Vienna.
+          img.img-fluid(src='assets/img/cultural_probes.jpeg' alt='Example of a cultural probes')
+      .col-lg-6
+        a.portfolio-item(href='#!')
+          .caption
+            .caption-content
+              .h2 Design Workshop - Results
+              p.mb-0
+                | We have agreed on two concrete tangible ideas to cover next semester: a CO
+                sub 2
+                |  display in Seestadt &amp; bike sharing service.
+          img.img-fluid(src='assets/img/designworkshop_result.jpeg' alt='Design Workshop - Results')
+// Design Thinking
+section#processes.content-section.bg-light
+  .container.px-4.px-lg-5.text-center
+    .row.gx-4.gx-lg-5.justify-content-center
+      .col-lg-10
+        h2 Design Thinking - Conclusion
+        p.lead.mb-5
+          | Understanding the needs and requirements of users is a complex task. Even more so is designing a system which is actually 
+          i wanted
+          |  by users. We will most likely follow up on the idea of displaying CO
+          sub 2
+          |  pollution in Seestadt &amp; adapting parking prices based on the measured values.
+          br
+          br
+          |                             In the follow up course Design Thinking: Implementation we will further refine our idea to create a prototype.
+// Contact Me
+section#contact.content-section.bg-primary.text-white.text-center
+  .container.px-4.px-lg-5
+    .content-section-heading
+      h2.mb-5 Contact Me
+    .container.px-4.px-lg-5.text-center
+      a.btn.btn-xl.btn-dark(href='mailto:jusogrill@gmail.com') Send me an email!
+// Footer
+footer.footer.text-center
+  .container.px-4.px-lg-5
+    ul.list-inline.mb-5
+      li.list-inline-item
+        a.social-link.rounded-circle.text-white.mr-3(href='https://linkedin.com/juliagrill')
+          i.icon-social-linkedin
+      li.list-inline-item
+        a.social-link.rounded-circle.text-white.mr-3(href='https://twitter.com/juliastic')
+          i.icon-social-twitter
+      li.list-inline-item
+        a.social-link.rounded-circle.text-white(href='https://github.com/juliastic')
+          i.icon-social-github
+    p.text-muted.small.mb-0 Copyright &copy; Julia Grill 2022
+// Scroll to Top Button
+a.scroll-to-top.rounded(href='#page-top')
+  i.fas.fa-angle-up
+// Bootstrap core JS
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+// Core theme JS
+script(src='js/scripts.js')
